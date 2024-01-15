@@ -14,7 +14,7 @@ class Database
         //this->conn holds the connection to the db
 
         if($this->conn->connect_error){
-            die("Unable to connect to the database: " .$this->con->connect_error);
+            die("Unable to connect to the database: " .$this->conn->connect_error);
         }
     }
 }
